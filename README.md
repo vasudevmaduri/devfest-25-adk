@@ -30,6 +30,7 @@ Each agent represents a specific stage of maturity or a specific architectural p
 | **[Agent 08](workshop/agents/08_production_agent)**      | Production Grade                  | Combining all patterns for defense-in-depth.  |
 | **[Agent 09](workshop/agents/09_small_model_agent)**     | Small Model (Cost Efficient)      | Use small models (Flash-Lite) for speed/cost. |
 | **[Agent 10](workshop/agents/10_large_model_agent)**     | Large Model (High Reasoning)      | Use large models (Pro) for complex logic.     |
+| **[Agent 11](workshop/agents/11_guardrails_agent)**      | NVIDIA Guardrails (Safety)        | Input/Output guards protect the agent & user. |
 
 ## 🚀 How to Run
 
@@ -46,6 +47,9 @@ Each agent represents a specific stage of maturity or a specific architectural p
     
     # Run Agent 08
     adk run agents/08_production_agent
+
+    # Run Agent 11 (Guardrails)
+    adk run agents/11_guardrails_agent
     ```
 
 3.  **Interact**:
