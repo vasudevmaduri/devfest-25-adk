@@ -17,25 +17,25 @@ Learn how we can build reliable AI agents. We will explore:
 
 Each agent represents a specific stage of maturity or a specific architectural pattern.
 
-| Agent                                           | Concept                   | The Lesson                                    |
-| :---------------------------------------------- | :------------------------ | :-------------------------------------------- |
-| **[Agent 00](agents/00_format_agent)**          | Structured Output         | How to force JSON output for downstream apps. |
-| **[Agent 01](agents/01_baseline_agent)**        | Baseline (Hallucination)  | Without data, AI guesses.                     |
-| **[Agent 02](agents/02_grounded_agent)**        | Grounded Generation (RAG) | Grounding fixes hallucinations.               |
-| **[Agent 03](agents/03_tool_read_agent)**       | Read-Only Tools           | Tools allow personalized answers.             |
-| **[Agent 04](agents/04_naive_write_agent)**     | Uncontrolled Action       | Uncontrolled writes are dangerous.            |
-| **[Agent 05](agents/05_confirmed_write_agent)** | Human-in-the-Loop         | Simple confirmations prevent accidents.       |
-| **[Agent 06](agents/06_secure_write_agent)**    | Secure Action (MFA)       | High-risk actions need MFA (OTP).             |
-| **[Agent 07](agents/07_planner_agent)**         | Multi-Step Reasoning      | Planning splits "Thinking" from "Doing".      |
-| **[Agent 08](agents/08_production_agent)**      | Production Grade          | Combining all patterns for defense-in-depth.  |
-| **[Agent 09](agents/09_small_model_agent)**     | Cost Efficient (Small)    | Use small models (Flash-Lite) for speed/cost. |
-| **[Agent 10](agents/10_large_model_agent)**     | High Reasoning (Large)    | Use large models (Pro) for complex logic.     |
+| Agent                                                    | Concept                   | The Lesson                                    |
+| :------------------------------------------------------- | :------------------------ | :-------------------------------------------- |
+| **[Agent 00](workshop/agents/00_format_agent)**          | Structured Output         | How to force JSON output for downstream apps. |
+| **[Agent 01](workshop/agents/01_baseline_agent)**        | Baseline (Hallucination)  | Without data, AI guesses.                     |
+| **[Agent 02](workshop/agents/02_grounded_agent)**        | Grounded Generation (RAG) | Grounding fixes hallucinations.               |
+| **[Agent 03](workshop/agents/03_tool_read_agent)**       | Read-Only Tools           | Tools allow personalized answers.             |
+| **[Agent 04](workshop/agents/04_naive_write_agent)**     | Uncontrolled Action       | Uncontrolled writes are dangerous.            |
+| **[Agent 05](workshop/agents/05_confirmed_write_agent)** | Human-in-the-Loop         | Simple confirmations prevent accidents.       |
+| **[Agent 06](workshop/agents/06_secure_write_agent)**    | Secure Action (MFA)       | High-risk actions need MFA (OTP).             |
+| **[Agent 07](workshop/agents/07_planner_agent)**         | Multi-Step Reasoning      | Planning splits "Thinking" from "Doing".      |
+| **[Agent 08](workshop/agents/08_production_agent)**      | Production Grade          | Combining all patterns for defense-in-depth.  |
+| **[Agent 09](workshop/agents/09_small_model_agent)**     | Cost Efficient (Small)    | Use small models (Flash-Lite) for speed/cost. |
+| **[Agent 10](workshop/agents/10_large_model_agent)**     | High Reasoning (Large)    | Use large models (Pro) for complex logic.     |
 
 ## 🚀 How to Run
 
 1.  **Navigate to the workshop directory**:
     ```bash
-    cd adk/workshop
+    cd workshop
     ```
 
 2.  **Run an agent**:
